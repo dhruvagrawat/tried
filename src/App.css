@@ -1,0 +1,353 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2em;
+  transition: all 0.4s ease;
+  margin-bottom: 3em;
+}
+
+nav.sticky {
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-content {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+nav .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #4070f4;
+}
+
+nav.sticky .logo a {
+  color: #fff;
+}
+
+.nav-content .nav-links {
+  display: flex;
+}
+
+.nav-content .nav-links li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #0E2431;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #4070f4;
+}
+
+.nav-links li a:hover {
+  font-size: 140%;
+}
+
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+nav.sticky .nav-links li a:hover {
+  color: #0E2431;
+}
+
+.home {
+  height: 400px;
+  width: 100%;
+  background: url("assets/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 6px;
+  color: #4070f4;
+}
+
+.text {
+  text-align: -webkit-center;
+  padding: 43px 67px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.firstsection {
+  flex: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.firstsection {
+  display: flex;
+  width: 100%;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0;
+  margin-bottom: 48px;
+  margin-top: -81px;
+}
+
+.leftsection {
+  width: 30%;
+  background-color: #fff;
+  margin: 2em;
+  padding-left: 30px;
+  box-sizing: border-box;
+  height: 20em;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.rightsection {
+  width: 70%;
+  /* background: rgba(62, 153, 244, 0.4); */
+  margin: 2em;
+  border: 2px px solid black;
+  box-sizing: border-box;
+  height: 20em;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+a:hover {
+  transform: scale(1.21);
+}
+
+.header-wrapper {
+  background: transparent;
+  padding: 5px;
+  margin-bottom: -10em;
+}
+
+.header-wrapper.sticky {
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-wrapper {
+  margin-top: 100px;
+}
+
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+h1.welcome {
+  font-size: 50px;
+  margin: 3px;
+}
+
+.lognsign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom {
+  width: 100%;
+  background-color: ;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+td {
+  font-size: larger;
+}
+
+button.FAQ__title {
+  background-color: darkslategrey;
+  width: 60%;
+  margin: 2em;
+  margin-left: revert-layer;
+}
+
+p {
+  font-size: larger;
+}
+
+form.mini-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  font-size: larger;
+  width: 60%;
+}
+
+input.react-datepicker-ignore-onclickoutside {
+  width: 100%;
+}
+
+img.logo {
+  width: 50%;
+  height: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.profile {
+  background: cyan;
+  padding: 0.4em;
+  border-radius: 50%;
+  /* margin: 0%; */
+  margin-top: -4px;
+}
+
+.footer {
+  text-align: center;
+  background: linear-gradient(to right, #a6c0fe, #f68084);
+  color: white;
+  padding: 10px 0;
+}
+
+h1.bigtext {
+  font-size: 70px;
+}
+
+h6.smalltext {
+  font-size: 30px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.mini-form {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  width: 60%;
+  height:400px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.smolclass {
+  height: 35px;
+}
+
+.smolclass1 {
+  height : 100px;
+}
+
+.smolclass2{
+  height:35px;
+}
+.form-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-col input {
+  width: 80%;
+  height: 20px;
+}
+
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form{
+  padding:1em;
+}
+
+button.login {
+  padding: 1.2em;
+}
+
+.slot-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.slot-table th, .slot-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.slot-table th {
+  background-color: #f2f2f2;
+}
